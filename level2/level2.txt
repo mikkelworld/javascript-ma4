@@ -1,0 +1,33 @@
+1. What is the DOM?
+The DOM (Document Object Model) is the hierarchical representation of your webpage. 
+It provides your browser with the logical structure of the webpage and ways to manipulate the document.
+
+2. List three methods to manipulate the DOM.
+createElement - Creates a new element in the document with the provided tag.
+getElementById - Returns a reference to the element with the provided id attribute.
+appendChild - appends the provided element to the end of the referenced node in the DOM.
+
+3. What is an asynchronous call?
+An asynchronous call is a call to a method that is non-blocking, meaning that it will not block your application from continuing execution while it waits for the async call to be completed.
+It is often used in JavaScript when requesting data from an API as we cannot be certain of how long the data will take to return.
+
+4. Briefly explain what the sources tab in Chromes Developer Tools does.
+The sources tab displays all the loaded resources used in the current webpage. This includes html, css and JavaScript files, as well as images and other assets.
+The tab also categorizes these resources by where they were loaded from, in the event that a webpage uses resources hosted on a third party webpage or server.
+
+5. What is a JavaScript promise?
+A JavaScript Promise is a used when using asynchronous calls. As the name suggests, its essentially a promise that the function will eventually resolve it. 
+The promise can either be fulfilled or rejected and the returned data or value can be passed on to another part of your code, or the rejection or error can be handled respectively.
+Promises are for example used when interacting with web APIs, which allows our JavaScript to continue executing while we wait for the web server to respond to our API call.
+
+6. What is an API
+An API (Application Programming Interface) is an interface for applications or websites to communicate with another piece of software, often a server containing data.
+In web development, this is generally referring to REST APIs which are interfaces that allow your webpage to request or manipulate data on another server.
+The server will in this case handle the HTTP request sent from your webpage and return data that can be displayed in your user interface, or allow you to Create, Read, Update and Delete (CRUD) data from the server.
+It adds a layer of security between the webpage and the real data, and allows third party developers to safely access data from services such as Twitter or Steam.
+
+7. What is a JavaScript Event?
+When your browser or the user interacts with or manipulates the webpage, it raises events in JavaScript. These events can be listened to and handled in your JavaScript code in order to achieve a wanted result or behavior. Examples of event are button clicks, keypresses, page loads and form submissions.
+
+8. What is event bubbling?
+Event bubbling is the process in which an event can propagate upwards in the DOM when not handled correctly. As the event bubbles up, it can fire off unwanted events on parent elements and potentially cause errors or otherwise unwanted behavior on your webpage. This can be handled by stopping the propagation in your event handler to prevent it from bubbling up.
